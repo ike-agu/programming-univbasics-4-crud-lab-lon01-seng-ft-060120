@@ -1,3 +1,7 @@
+
+
+
+require "pry"
 def create_an_empty_array
   arr = []
 end
@@ -5,7 +9,7 @@ end
 def create_an_array
    arr = ["Tom","Ike","Jim","Rose"]
 end
-
+binding.pry 
 def add_element_to_end_of_array(array, element)
  array << element 
 end
